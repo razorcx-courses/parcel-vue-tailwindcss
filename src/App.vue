@@ -9,7 +9,7 @@
         </h2></a
       >
 
-      <div class="flex justify-between items-center gap-5">
+      <div class="flex justify-between items-center gap-3 md:gap-6">
         <a href="https://js.langchain.com/docs/expression_language/cookbook"
           ><p>LangChain</p></a
         >
@@ -38,7 +38,7 @@
         </div>
       </section>
 
-      <section id="chat" class="py-4 px-4 h-full">
+      <section id="chat" class="pt-4 px-4 h-full">
         <div
           id="chat-card"
           class="flex flex-col max-w-sm md:max-w-lg mx-auto rounded-md overflow-hidden "
@@ -63,7 +63,7 @@
               <p class="bg-gray-300 py-2 px-3">AI Response</p>
             </div>
             <div
-              class="h-[125px] p-3 bg-gray-300 rounded-sm text-sm overflow-x-auto overflow-y-auto text-gray-800"
+              class="h-[140px] md:h-full p-3 bg-gray-300 rounded-sm text-sm overflow-x-auto overflow-y-auto text-gray-800"
             >
               <template v-if="response">
                 <p
@@ -104,7 +104,7 @@
           </div>
         </div>
       </section>
-      <section></section>
+      <!-- <section></section> -->
     </div>
     <footer
       id="footer"
